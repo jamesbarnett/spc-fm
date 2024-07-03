@@ -6,16 +6,19 @@
     <title>Stats Preview Card</title>
     <link rel="stylesheet" href="./style.css" media="all">
   </head>
-  <body class="min-w-56 text-inter mx-6 mb-4 mt-20 bg-primary-950 text-fs-base text-neutral-100 sm:px-20">
-    <div class="promotion sm:flex-1 mx-auto flex-1 rounded-md bg-primary-400 sm:flex sm:max-w-[1110px]">
-      <img src="/images/image-header-mobile.jpg" srcset="/images/image-header-mobile.jpg, /images/image-header-desktop.jpg 250w" class="rounded-t-md bg-primary-400 opacity-75 mix-blend-multiply sm:order-2 sm:max-w-[540px]" alt="">
-      <section class="card flex-1 rounded-b-md bg-primary-700 px-6 pt-10 sm:order-1 sm:max-w-[570px]">
-        <h1 class="text-fs-header mx-2 text-center font-inter font-bold leading-tight text-neutral-100 sm:pl-10 sm:text-left sm:text-4xl">Get <span class="text-primary-400">insights</span> that help your business grow.</h1>
-        <p class="mx-2 pb-8 pt-4 text-center font-lexend leading-relaxed text-neutral-200 sm:text-left">
+  <body class="min-w-56 text-inter mx-6 mb-4 mt-20 bg-primary-950 text-fs-base text-neutral-100 sm:max-w-[1440px] sm:flex sm:cols-1 sm:mx-auto sm:items-center sm:px-20">
+    <div class="promotion sm:flex-1 mx-auto flex-1 rounded-md bg-primary-700 sm:grid sm:grid-cols-[51.3%,_1fr]">
+      <div class="bg-primary-400 rounded-t-md">
+        <img src="/images/image-header-mobile.jpg" srcset="/images/image-header-mobile.jpg 0w, /images/image-header-desktop.jpg 300w" class="sm:max-fullh-full bg-primary-400 opacity-75 mix-blend-multiply sm:col-start-2" alt="">
+      </div>
+      <section class="card flex-1 flex-grow rounded-b-md bg-primary-700 px-6 pt-10 sm:h-fit sm:flex-1 sm:justify-center sm:col-start-1 sm:row-start-1 sm:rounded-tl-md sm:rounded-br-none sm:self-center sm:mx-10">
+        <h1 class="text-fs-header mx-2 text-center font-inter font-bold leading-tight text-neutral-100
+          sm:text-left sm:text-4xl sm:mx-0 sm:px-0">Get <span class="text-primary-400">insights</span> that help your business grow.</h1>
+        <p class="mx-2 pb-8 pt-4 text-center font-lexend leading-relaxed text-neutral-200 sm:text-left sm:mx-0">
           Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
         </p>
-        <section class="pb-3 text-center">
+        <section class="pb-3 text-center sm:pt-12">
           <dl class="sm:flex sm:flex-1 sm:flex-row">
             <div class="sm:flex sm:flex-1 sm:flex-col">
               <dd class="pb-0.5 text-center font-inter text-2xl font-bold tracking-wide text-neutral-100">10k+</dd>
