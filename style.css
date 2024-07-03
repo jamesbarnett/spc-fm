@@ -10,22 +10,22 @@
     --clr-neutral-100: hsla(0, 0%, 100%);
     --clr-neutral-200: hsla(0, 0%, 100%, 0.75);
     --clr-neutral-300: hsla(0, 0%, 100%, 0.6);
-  } 
+  }
 
   @font-face {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('./fonts/Inter-Regular.woff2') format('woff2');
+    src: url("./fonts/Inter-Regular.woff2") format("woff2");
   }
 
   @font-face {
-    font-family: 'Inter';
+    font-family: "Inter";
     font-style: bold;
     font-weight: 700;
     font-display: swap;
-    src: url('./fonts/Inter-Bold.woff2') format("woff2");
+    src: url("./fonts/Inter-Bold.woff2") format("woff2");
   }
 
   @font-face {
@@ -33,6 +33,6 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(/fonts/LexendDeca-Regular.woff2) format("woff2");
+    src: url("./fonts/LexendDeca-Regular.woff2") format("woff2");
   }
 }
