@@ -1,5 +1,6 @@
 {
   "name": "spc-fm",
+  "homepage": "https://jamesbarnett.github.io/spc-fm",
   "private": true,
   "version": "0.0.0",
   "type": "module",
