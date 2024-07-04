@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npx tailwindcss -i style.css -o dist/style.css && npm run build",
+    "predeploy": "npx tailwindcss -c tailwind.config.js -i style.css -o dist/style.css && npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview"
