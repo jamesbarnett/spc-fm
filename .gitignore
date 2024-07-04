@@ -1,3 +1,5 @@
+.tool-versions
+
 # Logs
 package-lock.json
 logs
