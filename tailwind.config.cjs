@@ -9,20 +9,20 @@ module.exports = {
       },
       colors: {
         primary: {
-          950: 'var(--clr-primary-950)',
-          700: 'var(--clr-primary-700)',
-          400: 'var(--clr-primary-400)',
+          950: "var(--clr-primary-950)",
+          700: "var(--clr-primary-700)",
+          400: "var(--clr-primary-400)",
         },
         neutral: {
-          100: 'var(--clr-neutral-100)', 
-          200: 'var(--clr-neutral-200)',
-          300: 'var(--clr-neutral-300)',
-        }
+          100: "var(--clr-neutral-100)",
+          200: "var(--clr-neutral-200)",
+          300: "var(--clr-neutral-300)",
+        },
       },
       fontSize: {
-        'fs-base': '15px',
-        'fs-header': '1.75rem'
-      }
+        "fs-base": "15px",
+        "fs-header": "1.75rem",
+      },
     },
   },
   plugins: [],
